@@ -42,5 +42,13 @@ python pre_data.py
 - 将SMILES列表保存为 smiles_list.pkl 文件
 - 使用分子力场将SMILES转化为3D分子图，并保存为 smiles_to_graph_dict.pkl 文件
 - 将SMILES、图、标签构建成一个列表，并保存为 data_list.pkl 文件，该文件为GEM读取的数据文件
-- 在 data/ 文件夹中将生成 train_smiles_to_graph_dict.pkl 和 test_smiles_to_graph_dict.pkl 文件。
+- 最后在 data/ 文件夹中将生成 train_smiles_to_graph_dict.pkl 和 test_smiles_to_graph_dict.pkl 文件。
+## 5折交叉验证训练模型
+```
+python Training.py
+```
+- 训练完成将在weights保存模型参数及在images生成训练过程图
+
+
+
 
