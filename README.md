@@ -1,1 +1,1 @@
-# -GeoGNNModel2compounds
+# GeoGNNModel2compounds
