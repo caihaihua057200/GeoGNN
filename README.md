@@ -31,3 +31,13 @@ from IPython.display import clear_output
 clear_output()
 print('安装完成')
 
+## 预处理数据
+- 运行 pre_data.py 脚本进行数据预处理。这一步将执行以下操作：
+
+- 将SMILES转化为RDKit标准SMILES
+- 去除重复值
+- 将SMILES列表保存为 smiles_list.pkl 文件
+- 使用分子力场将SMILES转化为3D分子图，并保存为 smiles_to_graph_dict.pkl 文件
+- 将SMILES、图、标签构建成一个列表，并保存为 data_list.pkl 文件，该文件为GEM读取的数据文件
+- 在 data/ 文件夹中将生成 train_smiles_to_graph_dict.pkl 和 test_smiles_to_graph_dict.pkl 文件。
+
