@@ -50,6 +50,14 @@ python Training.py
 ```
 - 训练完成将在weights保存模型参数及在images生成训练过程图
 
+## 5折交叉验证使用模型
+```
+python Testing.py
+```
+- 预测完成将输出predict.csv
+
+  
+
 
 
 
