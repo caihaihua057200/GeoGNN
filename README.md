@@ -30,10 +30,13 @@ from IPython.display import clear_output
 
 clear_output()
 print('安装完成')
-
+```
 ## 预处理数据
 - 运行 pre_data.py 脚本进行数据预处理。这一步将执行以下操作：
-
+```
+python pre_data.py
+```
+- 读取data文件夹的csv数据
 - 将SMILES转化为RDKit标准SMILES
 - 去除重复值
 - 将SMILES列表保存为 smiles_list.pkl 文件
