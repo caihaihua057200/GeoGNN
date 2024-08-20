@@ -13,6 +13,7 @@
 ## 环境配置
 
 ### 安装 PaddlePaddle
+- pip install paddlepaddle-gpu==2.2.2
 
 根据您的CUDA版本，参考 [PaddlePaddle安装指南](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/conda/linux-conda.html) 安装PaddlePaddle。
 
